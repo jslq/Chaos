@@ -1,0 +1,12 @@
+{
+  "name": "paopao-car",
+  "version": "1.0.0",
+  "description": "大搜车-营销赋能组-跑跑大搜车小游戏",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": ["game", "car", "souche"],
+  "author": "jslq<917498254@qq.com>",
+  "license": "ISC"
+}
