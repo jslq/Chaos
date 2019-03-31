@@ -4,9 +4,22 @@
   "description": "大搜车-营销赋能组-跑跑大搜车小游戏",
   "main": "index.js",
   "scripts": {
-    
+    "dev": "parcel index.html"
   },
-  "keywords": ["game", "car", "souche"],
+  "keywords": [
+    "game",
+    "car",
+    "souche"
+  ],
   "author": "jslq<917498254@qq.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.9.0",
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "lib": "^4.0.2"
+  }
 }
