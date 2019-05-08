@@ -1,10 +1,14 @@
 {
-  "name": "paopao-car",
+  "name": "chaos",
   "version": "1.0.0",
-  "description": "大搜车-营销赋能组-跑跑大搜车小游戏",
-  "main": "index.js",
+  "description": "Chaos canvas小游戏开发框架",
+  "main": "dist/chaos.common.js",
+  "module": "dist/chaos.esm.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
-    "dev": "parcel index.html"
+    "dev": "parcel example/index.html --out-dir dev",
+    "build:ts": "tsc -p .",
+    "build:main": "node build/build.js"
   },
   "keywords": [
     "game",
@@ -14,12 +18,16 @@
   "author": "jslq<917498254@qq.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^11.13.8",
     "less": "^3.9.0",
     "parcel": "^1.12.3",
     "parcel-bundler": "^1.12.3",
-    "typescript": "^3.3.4000"
-  },
-  "dependencies": {
-    "lib": "^4.0.2"
+    "rollup": "^1.11.3",
+    "typescript": "^3.3.4000",
+	"uglify-js": "^3.5.11",
+	"lib": "^4.0.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-replace": "^2.2.0"
   }
 }
