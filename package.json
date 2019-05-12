@@ -1,5 +1,5 @@
 {
-  "name": "chaos",
+  "name": "@jslq/chaos",
   "version": "1.0.0",
   "description": "Chaos canvas小游戏开发框架",
   "main": "dist/chaos.common.js",
@@ -11,9 +11,9 @@
     "build:main": "node build/build.js"
   },
   "keywords": [
-    "game",
-    "car",
-    "souche"
+    "canvas",
+    "小游戏",
+    "game"
   ],
   "author": "jslq<917498254@qq.com>",
   "license": "ISC",
